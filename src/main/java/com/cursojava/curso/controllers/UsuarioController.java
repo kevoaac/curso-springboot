@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 public class UsuarioController {
     @RequestMapping(value = "usuarios")
-    public List<Usuario> getUsurios(){
+    public List<Usuario> getUsurios() {
         List<Usuario> usuarios = new ArrayList<>();
 
         Usuario usuario = new Usuario();
@@ -45,39 +45,37 @@ public class UsuarioController {
         return usuarios;
     }
 
-    @RequestMapping(value = "usuarioo")
-    public Usuario editar(){
-        Usuario usuario = new Usuario();
-        usuario.setNombre("Lucas");
-        usuario.setApellido("Moy");
-        usuario.setTelefono("09999999");
-        usuario.setEmail("lucasmoy@gmail.com");
-        usuario.setPassword("123456789");
-        return usuario;
-    }
+    // @RequestMapping(value = "usuarioo")
+    // public Usuario editar(){
+    // Usuario usuario = new Usuario();
+    // usuario.setNombre("Lucas");
+    // usuario.setApellido("Moy");
+    // usuario.setTelefono("09999999");
+    // usuario.setEmail("lucasmoy@gmail.com");
+    // usuario.setPassword("123456789");
+    // return usuario;
+    // }
 
-    @RequestMapping(value = "usuariooo")
-    public Usuario eliminar(){
-        Usuario usuario = new Usuario();
-        usuario.setNombre("Lucas");
-        usuario.setApellido("Moy");
-        usuario.setTelefono("09999999");
-        usuario.setEmail("lucasmoy@gmail.com");
-        usuario.setPassword("123456789");
-        return usuario;
-    }
+    // @RequestMapping(value = "usuariooo")
+    // public Usuario eliminar(){
+    // Usuario usuario = new Usuario();
+    // usuario.setNombre("Lucas");
+    // usuario.setApellido("Moy");
+    // usuario.setTelefono("09999999");
+    // usuario.setEmail("lucasmoy@gmail.com");
+    // usuario.setPassword("123456789");
+    // return usuario;
+    // }
 
-    @RequestMapping(value = "usuarioooo")
-    public Usuario buscar(){
-        Usuario usuario = new Usuario();
-        usuario.setNombre("Lucas");
-        usuario.setApellido("Moy");
-        usuario.setTelefono("09999999");
-        usuario.setEmail("lucasmoy@gmail.com");
-        usuario.setPassword("123456789");
-        return usuario;
-    }
+    // @RequestMapping(value = "usuarioooo")
+    // public Usuario buscar(){
+    // Usuario usuario = new Usuario();
+    // usuario.setNombre("Lucas");
+    // usuario.setApellido("Moy");
+    // usuario.setTelefono("09999999");
+    // usuario.setEmail("lucasmoy@gmail.com");
+    // usuario.setPassword("123456789");
+    // return usuario;
+    // }
 
 }
-
-
